@@ -49,7 +49,7 @@ int main(){
     node* secondnode = (node*)malloc(sizeof(node));
     secondnode->value = 20;
     secondnode->next = NULL;
-    firstnode->next = secondnode
+    firstnode->next = secondnode;
 
     node* thirdnode = (node*)malloc(sizeof(node));
     thirdnode->value = 30;
